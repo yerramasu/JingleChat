@@ -1,5 +1,12 @@
 # Changelog
 
+### Version 1.23.11
+* Use 12 byte IV for OMEMO and HTTP Upload
+* Fixed connection problems with TLS1.3 servers
+
+### Version 1.23.10
+* bug fixes
+
 ### Version 1.23.9
 * Bring back support for old HTTP Upload version
 * Changed branding to Conversations Legacy
