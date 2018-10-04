@@ -1,5 +1,8 @@
 # Changelog
 
+### Version 1.23.12
+* Go back to 16 byte IV
+
 ### Version 1.23.11
 * Use 12 byte IV for OMEMO and HTTP Upload
 * Fixed connection problems with TLS1.3 servers
