@@ -56,13 +56,13 @@ public class WelcomeActivity extends XmppActivity {
 			ab.setDisplayShowHomeEnabled(false);
 			ab.setDisplayHomeAsUpEnabled(false);
 		}
-		final Button createAccount = findViewById(R.id.create_account);
-		createAccount.setOnClickListener(v -> {
-			final Intent intent = new Intent(WelcomeActivity.this, MagicCreateActivity.class);
-			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-			addInviteUri(intent);
-			startActivity(intent);
-		});
+//		final Button createAccount = findViewById(R.id.create_account);
+//		createAccount.setOnClickListener(v -> {
+//			final Intent intent = new Intent(WelcomeActivity.this, MagicCreateActivity.class);
+//			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+//			addInviteUri(intent);
+//			startActivity(intent);
+//		});
 		final Button useOwnProvider = findViewById(R.id.use_own_provider);
 		useOwnProvider.setOnClickListener(v -> {
 			List<Account> accounts = xmppConnectionService.getAccounts();

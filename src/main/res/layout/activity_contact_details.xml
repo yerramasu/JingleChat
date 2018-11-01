@@ -41,7 +41,8 @@
                             android:layout_width="@dimen/avatar_on_details_screen_size"
                             android:layout_height="@dimen/avatar_on_details_screen_size"
                             android:layout_alignParentTop="true"
-                            android:scaleType="centerCrop" />
+                            android:scaleType="centerCrop"
+                            />
 
                         <LinearLayout
                             android:id="@+id/details_jidbox"
